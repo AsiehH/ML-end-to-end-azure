@@ -47,7 +47,7 @@ class ModelTrainer:
                 "CatBoosting Regressor": CatBoostRegressor(verbose=False),
                 "AdaBoost Regressor": AdaBoostRegressor(),
             }
-            params = {
+            params = {  # move this to a config file?
                 "Decision Tree": {
                     "criterion": [
                         "squared_error",
@@ -94,7 +94,7 @@ class ModelTrainer:
                 X_test=X_test,
                 y_test=y_test,
                 models=models,
-                param=params,
+                params=params,
             )
 
             ## To get best model score from dict
