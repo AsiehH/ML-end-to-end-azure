@@ -94,3 +94,5 @@ target/
 # VS code workspace
 *.code-workspace
 
+#aws keys
+aws info
