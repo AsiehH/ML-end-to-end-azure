@@ -61,5 +61,3 @@ On Microsoft Azure, delete
 
 - the deployment
 - the app service
-
-* the yml file was not named correctly but functions anyway. I had created it for another model and reused it. That's why you see housingprediction in the url as well. 
