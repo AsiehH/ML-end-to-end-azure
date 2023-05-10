@@ -53,4 +53,4 @@ This model was successfully deployed on Microsoft Azure. To see the deployment, 
 
 To replecitae the deployment, refer to [instructions](Instructions.md)
 
- 
+* the yml file was not named correctly but functions anyway. I had created it for another model and reused it. 
